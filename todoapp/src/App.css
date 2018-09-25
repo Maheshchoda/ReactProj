@@ -1,0 +1,35 @@
+.header i.small {
+  font-size: 2.2rem;
+}
+#heading{
+  font-size: 50px;
+  margin: 20px auto;
+  width: 350px;
+  height: 50px;
+  color: rgb(105, 180, 191);
+}
+.todoAssign{
+  cursor: default;
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 10px 10px;
+  overflow: scroll;
+  border: 1px solid #2CBBAD;
+}
+.addTodo{
+  margin: 10px auto;
+  width: 600px;
+}
+.input-field .prefix ~ input {
+    width: 200px;
+}
+.btn{
+ float:right;
+}
+#noTodo{
+  width: 500px;
+  margin: 10px auto;
+  user-select: none;
+  color: rgba(240, 52, 114, 0.78)
+}
